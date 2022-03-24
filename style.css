@@ -1,0 +1,271 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    padding-bottom: 10px;
+  }
+  .ulfooter {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #555;
+  }
+  
+  .lifooter {
+   display: inline;
+   list-style: none;
+   margin-left: auto;
+   margin-right: auto;
+   top: 0px;
+   height: 50px;
+   padding: 25px;
+  }
+  
+  .lifooter a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {min-height: 280px;}
+
+  
+  
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+  
+  /* Set black background color, white text and some padding */
+  footer {
+    align-content: center;
+    background-color: #555;
+    color: white;
+    padding: 20px;
+    
+  }
+  /*alinhe div element on center*/
+  .centerDiv {
+    margin:auto;
+    width: 40%;
+    padding: 10px;
+    background-color: #555;
+
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+
+  /* My configurations */
+#img-prof {
+  max-width: 45%;
+  min-width: 40%;
+  height: auto;
+  
+  margin-left:80px;
+  border-radius: 50%;
+
+  text-align: center;
+  
+}
+#img-side-bar{
+  height: auto;
+  max-height:100%;
+}
+.img-logo{
+  width: 36px;
+  height: 36px;
+  padding-bottom:5px;
+}
+
+.info-div{
+  padding-left:250px;
+  padding-bottom: 20px;
+}
+.img-footer{
+  margin-right: 20px;
+  margin-left: 20px;
+  padding:5px;
+  width: 30%;
+  height: 30%;
+  max-width: 50px;
+}
+.img-footer:hover{
+  opacity: 0.7;
+}
+.img-card {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding:5px;
+  width: 40%;
+  height: auto;
+  max-width: 60%;
+  
+}
+.img-page {
+  max-width: 45%;
+  min-width: 40%;
+  height: auto;
+  
+  margin-left:80px;
+  border-radius: 50%;
+
+  text-align: center;
+  
+}
+.img-topic{
+  width: 30px;
+  height: 30px;
+  float:left;
+  margin-left:4px;
+  font-family: Georgia;
+  
+}
+.divMidia {
+  margin-left:auto;
+  margin-right:auto;
+}
+.div-copyright {
+  margin:0px;
+  padding-top:20px;
+  background-color: #fff;
+  text-align: center;
+  height: 40px;
+  
+}
+.div-welcome{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+.div-img-prof {
+  text-align: center;
+  padding-top:20px;
+}
+.div-search {
+  text-align: center;
+  padding-right: 40px;
+
+}
+.row{
+  justify-content: center;
+}
+
+h1{
+  font-family: Gill Sans;
+  color:lightslategrey;
+}
+h2{
+  font-family:Gerogia;
+  color:cadetblue
+}
+h3{
+  font-family:Cambria;
+  color:cadetblue
+}
+
+h5 {
+  font-family: Georgia;
+  color:cadetblue;
+}
+h6{
+  font-family: Helvetica;
+  color:rgb(42, 67, 99);
+  font-size: 1.2rem;
+}
+p {
+  font-family: Georgia;
+  color:darkgray
+}
+ul{
+  list-style-type: circle;
+  list-style-position: inside;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-left: 150px;
+}
+label{
+  padding: 5px;
+}
+select{
+  padding: 5px;
+}
+td{
+  font-family: Helvetica;
+  color:rgb(42, 67, 99);
+  font-size: 1.2rem;
+}
+th {
+  font-family:Cambria;
+  color:cadetblue;
+  font-size: 1.4rem;
+  text-align: center;
+}
+/* ----------------Style news cards--------------------- */
+.card-info {
+  width: 18rem;
+}
+
+
+/* Style The Dropdown Button */
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #a8d6eb;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #0f84e4;
+}
+/* The container <div> - needed to position the dropdown content */
